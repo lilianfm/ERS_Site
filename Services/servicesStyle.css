@@ -1,0 +1,70 @@
+/* Overarching css */
+li
+{
+	margin-bottom:10px;
+}
+
+/* Medical Communications/Sales Training/Testimonials Pages */
+#topContent
+{
+	font-size:16px;
+	color:rgb(0,61,121);
+}
+#topLeftContent
+{
+	float:left;
+	width:390px;
+	font-size:14px;
+	line-height:165%;
+}
+#topRightContent
+{
+	float:right;
+	width:390px;
+	font-size:14px;
+	margin-bottom:37px;
+	line-height:165%;
+}
+
+#bottomContent
+{
+	clear:both;
+	color:rgb(0,61,121);
+}
+#bottomLeftContent
+{
+	float:left;
+	width:400px;
+	font-size:14px;
+	line-height:165%;
+}
+#bottomRightContent
+{
+	float:right;
+	width:400px;
+	font-size:14px;
+	margin-bottom:37px;
+	line-height:165%;
+}
+
+#leftArt
+{
+	background:url(../Images/tempArt3.png);
+	height:241px;
+	width:400px;
+	clear:both;
+}
+
+#name
+{
+	color:#003d79;
+	font-size:14px;
+}
+
+/* Who We Serve Page */
+#columns
+{
+	float:left;
+	width:25%;
+	font-size:14px;
+}

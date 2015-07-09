@@ -1,0 +1,36 @@
+#leftContent
+{
+	float:left;
+	width:450px;
+	margin-top:32px;
+	color:rgb(0,61,121);
+}
+#leftContent h1
+{
+	color:rgb(89,129,168);
+}
+
+#rightContent
+{
+	
+	color:rgb(0,61,121);
+}
+
+#bottomContent
+{
+	clear:both;
+	padding-bottom:200px;
+	color:rgb(0,61,121);
+}
+#bottomContent h1
+{
+	color:rgb(89,129,168);
+	font-size:18px;
+}
+#bottomContent h2
+{
+	color:rgb(89,129,168);
+	font-size:14px;
+	font-family:PT Sans;
+	font-weight:bold;
+}

@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Include Files -->
+<link rel=StyleSheet href="../style.css">
+<script type="text/javascript" src="../Includes/jquery-1.7.2.js"></script>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic' rel='stylesheet' type='text/css'>
+<?php include("../Includes/includesPHP.php"); ?>
+
+<title>Video</title>
+
+<!-- FlexSlider pieces -->
+<link rel="stylesheet" href="flexslider.css" type="text/css" media="screen" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<link href="skin/blue.monday/jplayer.blue.monday.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="js/jplayer.playlist.min.js"></script>
+<script src="jquery.flexslider-min.js"></script>
+
+<!-- Hook up the FlexSlider -->
+<script type="text/javascript">
+	$(document).ready(function(){
+
+	new jPlayerPlaylist({
+		jPlayer: "#jquery_jplayer_1",
+		cssSelectorAncestor: "#jp_container_1"
+	}, [
+		{
+			title:"Big Buck Bunny Trailer",
+			artist:"Blender Foundation",
+			free:true,
+			m4v: "../video/5.m4v"
+		},
+		{
+			title:"Big Buck Bunny Trailer",
+			artist:"Blender Foundation",
+			free:true,
+			m4v: "../video/5.m4v"
+		},
+		{
+			title:"Big Buck Bunny Trailer",
+			artist:"Blender Foundation",
+			free:true,
+			m4v: "../video/5.m4v"
+		}
+	], {
+		swfPath: "js",
+		supplied: "webmv, ogv, m4v"
+	});
+
+});
+</script>
+
+</head>
+<body onload="windowResize();" oncontextmenu="return false;">
+
+<script type="text/javascript" src="../Includes/includesJS.js"></script>
+
+<!-- Begin Page Content -->
+<div id="container" >
+
+<div id="topDiv" class="topDiv">
+	<a href="../index.html"><div id="ersLogo"></div></a>
+	<div id="tabs">
+		<div id="topDivButton" title="aboutUs"   class="AboutUs.html" onmouseover="overTab(this)"> <p>ABOUT US</p>  </div>
+		<div id="topDivButton" title="services"  class="Services.html" onmouseover="overTab(this)"> <p>SERVICES</p>  </div>
+		<div id="topDivButton" title="portfolio" class="Portfolio.html" onmouseover="overTab(this)"> <p>PORTFOLIO</p> </div>
+		<div id="topDivButton" title="contactUs" class="contact_us.php" onmouseover="overTab(this)"> <p>CONTACT</p>   </div>
+	</div>
+</div><!--end topDiv-->
+
+<div id="headerRunner">
+	<div id="runnerLinks">
+		<div id="aboutUs">
+			<a href='../AboutUs/mission.html'>Mission Statement</a> 
+			<a href='../AboutUs/history.html'>Company History</a>
+		</div>
+		<div id="services">
+			<a href='../Services/medcom.html'>Medical Communications</a> 
+			<a href='../Services/salesTraining.html'>Sales Training</a>
+			<a href='../Services/whoWeServe.html'>Who We Serve</a> 
+			<a href='../Services/testimonials.html'>Testimonials</a>
+		</div>
+		<div id="portfolio">
+			<a href='medIllustration.html'>Medical Illustration</a> 
+			<a href='#nogo'><strong>Video</strong></a>
+		</div>
+		<div id="contactUs">
+			<a href='../ContactUs/contact_us.php'>Contact Info and Request Form</a> 
+			<a href='../ContactUs/careers.html'>Careers</a>
+		</div>
+	</div><!--end runnerLinks-->
+</div><!--end headerRunner-->
+
+<div id="topImage" class="portfolio">
+</div><!--end topImage-->
+
+<div id="content" style="padding-left:18%; padding-right:18%; padding-bottom:48px;">
+	
+	<div id="topContent" style="margin-top:32px;">
+		<h1>VIDEO</h1>
+		<p style="color:rgb(0,61,121);">At ERS our goal when developing training is to tell a full and comprehensive story.  Our customized course solutions frequently include the use of visually rich video which serves to enhance and energize the learning experience.</p>
+		
+		<div id="jp_container_1" class="jp-video jp-video-270p">
+			<div class="jp-type-playlist">
+				<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+				<div class="jp-gui">
+					<div class="jp-video-play">
+						<a href="javascript:;" class="jp-video-play-icon" tabindex="1">play</a>
+					</div>
+					<div class="jp-interface">
+						<div class="jp-progress">
+							<div class="jp-seek-bar">
+								<div class="jp-play-bar"></div>
+							</div>
+						</div>
+						<div class="jp-current-time"></div>
+						<div class="jp-duration"></div>
+						<div class="jp-controls-holder">
+							<ul class="jp-controls">
+								<li><a href="javascript:;" class="jp-previous" tabindex="1">previous</a></li>
+								<li><a href="javascript:;" class="jp-play" tabindex="1">play</a></li>
+								<li><a href="javascript:;" class="jp-pause" tabindex="1">pause</a></li>
+								<li><a href="javascript:;" class="jp-next" tabindex="1">next</a></li>
+								<li><a href="javascript:;" class="jp-stop" tabindex="1">stop</a></li>
+								<li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">mute</a></li>
+								<li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">unmute</a></li>
+								<li><a href="javascript:;" class="jp-volume-max" tabindex="1" title="max volume">max volume</a></li>
+							</ul>
+							<div class="jp-volume-bar">
+								<div class="jp-volume-bar-value"></div>
+							</div>
+							<ul class="jp-toggles">
+								<li><a href="javascript:;" class="jp-full-screen" tabindex="1" title="full screen">full screen</a></li>
+								<li><a href="javascript:;" class="jp-restore-screen" tabindex="1" title="restore screen">restore screen</a></li>
+								<li><a href="javascript:;" class="jp-shuffle" tabindex="1" title="shuffle">shuffle</a></li>
+								<li><a href="javascript:;" class="jp-shuffle-off" tabindex="1" title="shuffle off">shuffle off</a></li>
+								<li><a href="javascript:;" class="jp-repeat" tabindex="1" title="repeat">repeat</a></li>
+								<li><a href="javascript:;" class="jp-repeat-off" tabindex="1" title="repeat off">repeat off</a></li>
+							</ul>
+						</div>
+						<div class="jp-title">
+							<ul>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="jp-playlist">
+					<ul>
+						<!-- The method Playlist.displayPlaylist() uses this unordered list -->
+						<li></li>
+					</ul>
+				</div>
+				<div class="jp-no-solution">
+					<span>Update Required</span>
+					To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+				</div>
+			</div>
+		</div>
+		
+	</div><!--end topContent-->
+</div><!--end content-->
+
+<div id="ersBottomBarDiv" style="text-align:center;">
+    <span id="floater3" style="float:left; padding-right:2em;  padding-left:18%;padding-top:5px; color:#FFF;  text-shadow: none;font-size:12px;"><a href="../index.html">HOME</a></span>
+	<span id="floater4" style="float:left; padding-right:2em; padding-top:5px; color:#FFF;font-size:12px; text-shadow: none;" ><a href="../Services/SiteMap.html">SITE MAP</a></span>
+	<span id="floater5" style="float:left; padding-right:2em; padding-top:5px; color:#FFF;font-size:12px; text-shadow: none;"><a href="../AboutUs/PrivacyPolicy.html">PRIVACY POLICY</a></span>
+	<span id="floater1" style="float:right; padding-right:18%; padding-top:5px;">
+		<a href="http://twitter.com/_ERS_" target="_blank"><img src="../Images/twit.png" width="23" height="16" style="border:0;"></a>
+		<a href="http://www.linkedin.com/company/educational-resource-systems-inc." target="_blank"><img src="../Images/linked.png" width="17" height="16" style="border:0;"></a>
+	</span>
+</div><!--end ersBottomBarDiv-->
+<div id="ersBottomDiv" style="text-align:center;">
+	<span style="float:left; color:white; padding-left:18%; padding-top:6px; font-size:11px; text-shadow:none;">&#169;2012, Educational Resource Systems. All Rights Reserved.</span>
+</div><!--end ersBottomDiv-->
+
+</div><!--end container-->
+
+<div id="clock"></div>
+
+<!-- Start of Async HubSpot Analytics Code -->
+    <script type="text/javascript">
+        (function(d,s,i,r) {
+            if (d.getElementById(i)){return;}
+            var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+            n.id <http://n.id> =i;n.src='//js.hubspot.com/analytics/'+(Math.ceil(new <http://js.hubspot.com/analytics/'+(Math.ceil(new>  Date()/r)*r)+'/243653.js';
+
+            e.parentNode.insertBefore(n, e);
+        })(document,"script","hs-analytics",300000);
+    </script>
+<!-- End of Async HubSpot Analytics Code -->
+</body>
+</html>
