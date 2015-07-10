@@ -23,6 +23,9 @@ h1
 	color:rgb(89,129,168);
 	font-size:18px;
 }
+.specialH1{
+	font-size:24px;
+}
 
 #container
 {
@@ -41,14 +44,16 @@ h1
 {
 	font-family: 'PT Sans', sans-serif;
 	background:#FFFFFF;
-	width:100%;
+	width: 100%; /*	width:1024px;*/
 	height:91px;
 	padding-bottom:6px;
-	
+/*	position:fixed;*/
+	z-index: 9;
 }
 #topImage
 {
-	
+/*		position:relative;
+	top:91px;*/
 	background:url(Images/home_banner_1_text.jpg);
 	background-repeat:no-repeat;
 	height:360px;
@@ -59,7 +64,8 @@ h1
 }
 #topImageHolder
 {
-	
+/*		position:relative;
+	top:91px;*/	
 	background:#1b1f23;
 	background-repeat:no-repeat;
 	height:auto;
@@ -69,6 +75,8 @@ h1
 }
 #topImage.about
 {
+/*		position:relative;
+		top:91px;*/
 	background:url(Images/about_header.jpg);
 	background-repeat:no-repeat;
 	height:120px;
@@ -78,6 +86,8 @@ h1
 }
 #topImage.sitemap
 {
+/*		position:relative;
+		top:91px;*/
 	background:url(Images/sitemap_header.jpg);
 	background-repeat:no-repeat;
 	height:120px;
@@ -87,6 +97,7 @@ h1
 }
 #topImage.services
 {
+/*		top:91px;*/
 	background:url(Images/services_header.jpg);
 	background-repeat:no-repeat;
 	height:120px;
@@ -96,6 +107,7 @@ h1
 }
 #topImage.contact
 {
+/*		top:91px;*/
 	background:url(Images/contact_header.jpg);
 	background-repeat:no-repeat;
 	height:120px;
@@ -105,6 +117,7 @@ h1
 }
 #topImage.portfolio
 {
+/*		top:91px;*/
 	background:url(Images/portfolio_header.jpg);
 	background-repeat:no-repeat;
 	height:120px;
@@ -114,6 +127,7 @@ h1
 }
 #topImage.privacy
 {
+/*		top:91px;*/
 	background:url(Images/privacy_header.jpg);
 	background-repeat:no-repeat;
 	height:120px;
@@ -166,6 +180,7 @@ h1
 	text-shadow: black 0.1em 0.1em 0.2em;
 	cursor:default;
 }
+/*	width:1024px;position:fixed;	*/
 #headerRunner
 {
 	background:url(Images/pattern2.png);
@@ -355,4 +370,39 @@ box-shadow: 0px -2px 8px #222222;
 	left: 10px;
 	top: 21px;
 	font-family:MarkerFelt-Wide;
+}
+#form {
+	clear:none;
+	float:left;
+/*	margin-right:300px;*/
+	width:230px;
+	padding-bottom:100px;	
+}
+input {
+	font-family: Arial, Sans-Serif;
+    font-size: 13px;
+    margin-bottom: 25px;
+    display: block;
+    padding: 4px;
+    border: solid 1px #85b1de;
+    width: 300px;
+}
+textarea {
+	font-family: Arial, Sans-Serif;
+    font-size: 13px;
+    margin-bottom: 25px;
+    display: block;
+    padding: 4px;
+    border: solid 1px #85b1de;
+    width: 300px;
+	height: 200px;
+}
+.GIcaption {
+	float:right;
+/*	border: 1px;
+	border-style: solid;
+	border-color: #789;*/
+}
+.GIcaption img {
+	margin-left: 36px;
 }
