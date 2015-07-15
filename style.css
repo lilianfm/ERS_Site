@@ -44,16 +44,16 @@ h1
 {
 	font-family: 'PT Sans', sans-serif;
 	background:#FFFFFF;
-	width: 100%; /*	width:1024px;*/
+		width:1280px; /*width: 100%;	*/
 	height:91px;
 	padding-bottom:6px;
-/*	position:fixed;
-	z-index: 9;*/
+	position:fixed;
+	z-index: 9;/**/
 }
 #topImage
 {
-/*		position:relative;
-	top:91px;*/
+		position:relative;
+/*	top:91px;*/
 	background:url(Images/home_banner_1_text.jpg);
 	background-repeat:no-repeat;
 	height:360px;
@@ -64,8 +64,8 @@ h1
 }
 #topImageHolder
 {
-/*		position:relative;
-	top:91px;*/	
+			position:relative;
+/**/	top:91px;
 	background:#1b1f23;
 	background-repeat:no-repeat;
 	height:auto;
@@ -75,8 +75,8 @@ h1
 }
 #topImage.about
 {
-/*		position:relative;
-		top:91px;*/
+/**/		position:relative;
+		top:91px;
 	background:url(Images/about_header.jpg);
 	background-repeat:no-repeat;
 	height:120px;
@@ -86,8 +86,8 @@ h1
 }
 #topImage.sitemap
 {
-/*		position:relative;
-		top:91px;*/
+/**/		position:relative;
+		top:91px;
 	background:url(Images/sitemap_header.jpg);
 	background-repeat:no-repeat;
 	height:120px;
@@ -97,7 +97,7 @@ h1
 }
 #topImage.services
 {
-/*		top:91px;*/
+/**/		top:91px;
 	background:url(Images/services_header.jpg);
 	background-repeat:no-repeat;
 	height:120px;
@@ -107,7 +107,7 @@ h1
 }
 #topImage.contact
 {
-/*		top:91px;*/
+/**/		top:91px;
 	background:url(Images/contact_header.jpg);
 	background-repeat:no-repeat;
 	height:120px;
@@ -117,7 +117,7 @@ h1
 }
 #topImage.portfolio
 {
-/*		top:91px;*/
+/**/		top:91px;
 	background:url(Images/portfolio_header.jpg);
 	background-repeat:no-repeat;
 	height:120px;
@@ -127,7 +127,7 @@ h1
 }
 #topImage.privacy
 {
-/*		top:91px;*/
+/**/		top:91px;
 	background:url(Images/privacy_header.jpg);
 	background-repeat:no-repeat;
 	height:120px;
@@ -184,9 +184,11 @@ h1
 #headerRunner
 {
 	background:url(Images/pattern2.png);
-	width:100%;
+	width:1280px;
 	height:0px;
-	position:relative;
+	position:fixed;
+	top: 91px;
+	z-index: 10;
 	
 }
 #runnerLinks
@@ -235,6 +237,7 @@ h1
 	padding-left:12%;
 	margin-left:auto;
 	margin-right:auto;
+	margin-top: 97px;
 }
 
 /* contentHeader */

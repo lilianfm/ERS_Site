@@ -19,7 +19,7 @@
 
 <title>Contact Us: Contact Info and Request Form</title>
 </head>
-<body onload="windowResize();" oncontextmenu="return false;">
+<body onload="windowResize();"><!-- oncontextmenu="return false;"-->
 
 <script type="text/javascript" src="../Includes/includesJS.js"></script>
 
@@ -190,7 +190,7 @@
 	echo
 		"</textarea> </p>
 
-		<input type='image' src='../Images/submit.png' height='32' width='81' border='0' alt='Submit Form'>
+		<input type='image' src='../Images/submit.png' height='32px' width='81px' border='0' alt='Submit Form'>
 
 		</form>";
 
