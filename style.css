@@ -385,10 +385,11 @@ input {
 	font-family: Arial, Sans-Serif;
     font-size: 13px;
     margin-bottom: 25px;
+	margin-left: 134px;
     display: block;
     padding: 4px;
     border: solid 1px #85b1de;
-    width: 300px;
+    width: 81px;
 }
 textarea {
 	font-family: Arial, Sans-Serif;
@@ -396,7 +397,7 @@ textarea {
     margin-bottom: 25px;
     display: block;
     padding: 4px;
-    border: solid 1px #85b1de;
+    border: solid 0px #85b1de;
     width: 300px;
 	height: 200px;
 }
