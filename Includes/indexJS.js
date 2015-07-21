@@ -111,7 +111,7 @@ function windowResize()
 	if( $(window).innerWidth() >= 1280 )                              // WINDOW SIZE 1280
 	{
 		headRight='230px';
-		$( "body" ).css( "width", "1280" );
+		$( "body" ).css( "width", "1280px" );
 		$( "#ersLogo" ).css( "margin-left", "18%" );
 		$( "#tabs" ).css( "margin-right", "18%" );
 		$( "#topImage" ).css( "margin-left", "0px" );
@@ -123,8 +123,9 @@ function windowResize()
 	else if( $(window).innerWidth() >= 1024 ) 	                     // WINDOW SIZE 1024
 	{
 		headRight='105px';
-		$( "body" ).css( "width", "1024" );
+		$( "body" ).css( "width", "1024px" );
 		$( "#ersLogo" ).css( "margin-left", "10%" );
+		$( "#topDiv" ).css( "width", "1024" );
 		$( "#tabs" ).css( "margin-right", "10%" );
 		$( "#topImage" ).css( "margin-left", "0px" );
 		$( "#rightContent" ).css( "float", "left" );
@@ -134,8 +135,9 @@ function windowResize()
 	else if( $(window).innerWidth() <= 768 ) 	                     // WINDOW SIZE 768
 	{
 		headRight='20px';
-		$( "body" ).css( "width", "768" );
+		$( "body" ).css( "width", "768px" );
 		$( "#ersLogo" ).css( "margin-left", "2%" );
+		$( "#topDiv" ).css( "width", "768" );
 		$( "#tabs" ).css( "margin-right", "2%" );
 		$( "#topImage" ).css( "margin-left", "-100px" );
 		$( "#rightContent" ).css( "float", "left" );

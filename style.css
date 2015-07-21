@@ -15,7 +15,7 @@ body
 	margin:auto;
 	width:1280px;
 	font-family: 'PT Sans', sans-serif;
-	/*color:rgb( 89, 129, 168 );*/
+	color:rgb( 89, 129, 168 );/**/
 	background:#1b1f23;
 }
 h1
@@ -194,7 +194,7 @@ h1
 #runnerLinks
 {
 	position:absolute;
-	right:15%;
+	margin-right:18%;
 	top:0;
 }
 #runnerLinks a
