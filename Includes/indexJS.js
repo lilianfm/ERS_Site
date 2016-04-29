@@ -17,6 +17,8 @@ function switchPic()
 	   $('#topImage').fadeOut('slow', function() {
 	   $( "#topImage" ).css( "background", "url(Images/home_banner_"+tTime+"_text.jpg)" );
 	   $( "#topImage" ).css( "background-position", "50% 50%" );
+	   //$( "#topImage" ).css( "height", "390" );
+	   $( "#topImage" ).css( "background-size", "100% 100%" );
        $("#topImage").fadeIn("slow");
   });
   }
@@ -27,6 +29,8 @@ function switchPic()
 	   $('#topImage').fadeOut('slow', function() {
 	   $( "#topImage" ).css( "background", "url(Images/home_banner_"+tTime+"_text.jpg)" );
 	   $( "#topImage" ).css( "background-position", "50% 50%" );
+	   //$( "#topImage" ).css( "height", "390" );
+	   $( "#topImage" ).css( "background-size", "100% 100%" );
        $("#topImage").fadeIn("slow");
   });
   }
@@ -139,7 +143,8 @@ function windowResize()
 		$( "#ersLogo" ).css( "margin-left", "2%" );
 		$( "#topDiv" ).css( "width", "768" );
 		$( "#tabs" ).css( "margin-right", "2%" );
-		$( "#topImage" ).css( "margin-left", "-100px" );
+/*		$( "#topImage" ).css( "background-size", "53% 53%" );*/
+		$( "#topImage" ).css( "height", "190" );
 		$( "#rightContent" ).css( "float", "left" );
 		$( "#rightCol" ).css( "clear", "both" );
 		$( "#rightCol" ).css( "float", "left" );

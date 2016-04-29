@@ -6,37 +6,39 @@
 
 <!-- Include Files -->
 <link rel=StyleSheet href="../style.css">
-<link rel=StyleSheet href="aboutStyle.css">
+<link rel=StyleSheet href="../AboutUs/aboutStyle.css">
 <script type="text/javascript" src="../Includes/jquery-1.7.2.js"></script>
 <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-<?php include("../Includes/includesPHP.php"); ?>
+<?php include("Includes/includesPHP.php"); ?>
 
-<title>Mission Statement</title>
+<title>Kravitz</title>
 </head>
-<body onload="windowResize();" oncontextmenu="return false;">
+<body onload="windowResize();"><!-- oncontextmenu="return false;"-->
 
 <script type="text/javascript" src="../Includes/includesJS.js"></script>
 
 <!-- Begin Page Content -->
 <div id="container">
 
+
 <div id="topDiv" class="topDiv">
 	<a href="../index.html"><div id="ersLogo"></div></a>
-	<div id="tabs">
-		<div id="topDivButton" title="aboutUs"   class="AboutUs.html"   onmouseover="overTab(this)"> <p>ABOUT US</p>  </div>
-		<div id="topDivButton" title="services"  class="Services.html"  onmouseover="overTab(this)"> <p>SERVICES</p>  </div>
-		<div id="topDivButton" title="portfolio" class="Portfolio.html" onmouseover="overTab(this)"> <p>PORTFOLIO</p> </div>
-		<div id="topDivButton" title="contactUs" class="contact_us.php" onmouseover="overTab(this)"> <p>CONTACT</p>   </div>
- 
+	<div id="tabs" >
+		<div id="topDivButton" title="aboutUs"   class="AboutUs.html"  onmouseout="outTab()"  onmouseover="overTab(this)"> <p>ABOUT US</p>  </div>
+		<div id="topDivButton" title="services"  class="Services.html"  onmouseout="outTab()" onmouseover="overTab(this)"> <p>SERVICES</p>  </div>
+		<div id="topDivButton" title="portfolio" class="Portfolio.html"  onmouseout="outTab()" onmouseover="overTab(this)"> <p >PORTFOLIO</p> </div>
+		<div id="topDivButton" title="contactUs" class="contact_us.php"  onmouseout="outTab()" onmouseover="overTab(this)"> <p>CONTACT</p>   </div>
+        <!-- old blog link 
+        <div id="topDivButton" title="blog" class="blog" onmouseout="outTab()" onmouseover="overTab(this)">        <a href='http://educationalresource.web13.hubspot.com/blog/'><p>BLOG</p></a>   </div>  -->
 	</div><!--end tabs-->
 </div><!--end topDiv-->
 
 <div id="headerRunner">
 	<div id="runnerLinks">
 		<div id="aboutUs">
-            <a href='../news/index.html'>News</a>
-			<a href='#nogo'><strong>Mission Statement</strong></a> 
-			<a href='history.html'>Company History</a>
+            <a href='#nogo'><strong>News</strong></a>
+			<a href='../AboutUs/mission.html'>Mission Statement</a> 
+			<a href='../AboutUs/history.html'>Company History</a>
 		</div>
 		<div id="services">
 			<a href='../Services/medcom.html'>Medical Communications</a> 
@@ -52,33 +54,57 @@
 			<a href='../ContactUs/contact_us.php'>Contact Info and Request Form</a> 
 			<a href='../ContactUs/careers.html'>Careers</a>
 		</div>
+
 	</div><!--end runnerLinks-->
 </div><!--end headerRunner-->
+
+<!--<script type="text/javascript">
+function HttpRequest(url){
+var pageRequest = false //variable to hold ajax object
+
+ 
+if (!pageRequest && typeof XMLHttpRequest != 'undefined')
+   pageRequest = new XMLHttpRequest()
+ 
+if (pageRequest){ //if pageRequest is not false
+   pageRequest.open('GET', url, false) //get page synchronously 
+   pageRequest.send(null)
+   embedpage(pageRequest)
+   }
+}
+ 
+function embedpage(request){
+//if viewing page offline or the document was successfully retrieved online (status code=2000)
+if (window.location.href.indexOf("http")==-1 || request.status==200)
+   document.write(request.responseText)
+}
+ 
+HttpRequest("header.html") //include "external.htm" onto current page</font>
+</script>-->
 
 <div id="topImage" class="about">
 </div><!--end topImage-->
 
 <div id="content" style="padding-left:18%; padding-right:18%;">
 
-<div id="topContent" style="margin-top:32px;">
-	<h1>MISSION STATEMENT</h1>
-	<p>As a company built on a foundation of teamwork, we see every project as an 
-	opportunity to partner with clients and produce top-notch results. We have excelled in 
-	virtually every therapeutic area. Pharmaceutical sales training and medical communications 
-	are our passion,  and our extensive marketplace knowledge is our competitive advantage. 
-	Our company&#146s strength can be attributed to the expertise and dedication of each and every 
-	ERS employee. We look forward to sharing both this passion and knowledge with our clients on every project.</p>
-	<p>&nbsp;</p>
-	<p>&nbsp;</p>
-	<p>&nbsp;</p>
-	<p>&nbsp;</p>
-	<p>&nbsp;</p>
-	<p>&nbsp;</p>
-	<p>&nbsp;</p>
-	<p>&nbsp;</p>
-	
-	<p></p>
-</div>
+<div id="topContent" style="margin-top:48px;">
+	<h1 class="specialH1">Helena Kravitz, Director of Client Services</h1>
+
+
+
+<p>Helena Kravitz, Director of Client Services, was recently awarded the Certified Meeting Professional (CMP) designation from the Convention Industry Council.</p> 
+
+<p>The CMP credential is recognized globally as the badge of excellence in the meeting, convention, exhibition, and event industry. The qualifications for certification are based on professional experience, education, and a rigorous exam. More than 10,000 meeting professionals in 55 countries around the globe hold the CMP designation. This unique community represents every sector of the industry—from corporations and associations to government and institutional organizations.</p> 
+
+<p>Helena is now in the process of pursuing her CMP-HC, Certified Meeting Professional Healthcare Subspecialty. The CMP-HC credential focuses on specific regulations, laws, and best practices that must be followed when conducting a healthcare-focused meeting.
+</p> 
+
+
+
+<p>&nbsp;</p>
+
+
+</div><!--end topContent-->
 
 </div><!--end content-->
 
@@ -94,8 +120,6 @@
 <div id="ersBottomDiv" style="text-align:center;">
 	<span style="float:left; color:white; padding-left:18%; padding-top:6px; font-size:11px; text-shadow:none;">&#169;2016, Educational Resource Systems. All Rights Reserved.</span>
 </div><!--end ersBottomDiv-->
-
-
 
 </div><!--end container-->
 
