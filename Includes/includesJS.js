@@ -88,7 +88,7 @@ function windowResize()
 		headRight='230px';
 		$( "body" ).css( "width", "1280" );
 		$( "#ersLogo" ).css( "margin-left", "18%" );
-		$( "#tabs" ).css( "margin-right", "18%" );
+		$( "#tabs" ).css( "margin-right", "10%" );
 		$( "#topImage" ).css( "margin-left", "0px" );
 		$( "#rightContent" ).css( "float", "right" );
 		$( "#rightCol" ).css( "clear", "" );
