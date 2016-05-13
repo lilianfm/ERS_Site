@@ -88,6 +88,8 @@ function windowResize()
 		headRight='230px';
 		$( "body" ).css( "width", "1280" );
 		$( "#ersLogo" ).css( "margin-left", "18%" );
+		$( "#topDiv" ).css( "width", "1280" );
+		$( "#headerRunner" ).css( "width", "1280" );
 		$( "#tabs" ).css( "margin-right", "10%" );
 		$( "#topImage" ).css( "margin-left", "0px" );
 		$( "#rightContent" ).css( "float", "right" );
@@ -114,6 +116,7 @@ function windowResize()
 		$( "body" ).css( "width", "1024" );
 		$( "#ersLogo" ).css( "margin-left", "10%" );
 		$( "#topDiv" ).css( "width", "1024" );
+		$( "#headerRunner" ).css( "width", "1024" );
 		$( "#tabs" ).css( "margin-right", "10%" );
 		$( "#topImage" ).css( "margin-left", "0px" );
 		$( "#rightContent" ).css( "float", "left" );
@@ -140,6 +143,7 @@ function windowResize()
 		$( "body" ).css( "width", "768" );
 		$( "#ersLogo" ).css( "margin-left", "2%" );
 		$( "#topDiv" ).css( "width", "768" );
+		$( "#headerRunner" ).css( "width", "768" );
 		$( "#tabs" ).css( "margin-right", "2%" );
 		$( "#topImage" ).css( "margin-left", "-100px" );
 		$( "#rightContent" ).css( "float", "left" );

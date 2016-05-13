@@ -117,8 +117,11 @@ function windowResize()
 		headRight='230px';
 		$( "body" ).css( "width", "1280px" );
 		$( "#ersLogo" ).css( "margin-left", "18%" );
+		$( "#topDiv" ).css( "width", "1280" );
+		$( "#headerRunner" ).css( "width", "1280" );
 		$( "#tabs" ).css( "margin-right", "10%" );
 		$( "#topImage" ).css( "margin-left", "0px" );
+		$( "#topImage" ).css( "height", "360" );
 		$( "#rightContent" ).css( "float", "right" );
 		$( "#rightCol" ).css( "clear", "none" );
 		$( "#rightCol" ).css( "float", "right" );
@@ -130,8 +133,10 @@ function windowResize()
 		$( "body" ).css( "width", "1024px" );
 		$( "#ersLogo" ).css( "margin-left", "10%" );
 		$( "#topDiv" ).css( "width", "1024" );
+		$( "#headerRunner" ).css( "width", "1024" );
 		$( "#tabs" ).css( "margin-right", "10%" );
 		$( "#topImage" ).css( "margin-left", "0px" );
+		$( "#topImage" ).css( "height", "360" );
 		$( "#rightContent" ).css( "float", "left" );
 		$( "#rightCol" ).css( "clear", "none" );
 		$( "#rightCol" ).css( "float", "right" );
@@ -142,6 +147,7 @@ function windowResize()
 		$( "body" ).css( "width", "768px" );
 		$( "#ersLogo" ).css( "margin-left", "2%" );
 		$( "#topDiv" ).css( "width", "768" );
+		$( "#headerRunner" ).css( "width", "768" );
 		$( "#tabs" ).css( "margin-right", "2%" );
 /*		$( "#topImage" ).css( "background-size", "53% 53%" );*/
 		$( "#topImage" ).css( "height", "190" );
